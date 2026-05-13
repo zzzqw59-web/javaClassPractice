@@ -5,6 +5,12 @@ public class Car {
     int gear;
     String color;
 
+    void carData(int s, int g, String c) {
+        speed = s;
+        gear = g;
+        color = c;
+    }
+
     void speedUp(int a) {
         speed += a;
     }

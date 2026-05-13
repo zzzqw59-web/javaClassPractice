@@ -6,9 +6,10 @@ public class CarTest {
         Car myCar = new Car();
 
         // 각각의 필드에 값을 설정해주는 방법 - 참조변수명.필드 = 값
-        myCar.speed = 0;
-        myCar.gear = 1;
-        myCar.color = "red";
+//        myCar.speed = 0;
+//        myCar.gear = 1;
+//        myCar.color = "red";
+        myCar.carData(1, 2, "red");
 
         // 객체의 메서드 호출 - 참조변수명.메서드()
         myCar.speedUp(10);
