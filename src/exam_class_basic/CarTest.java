@@ -11,8 +11,8 @@ public class CarTest {
         myCar.color = "red";
 
         // 객체의 메서드 호출 - 참조변수명.메서드()
-        myCar.speedUp();
-        myCar.speedDown();
+        myCar.speedUp(10);
+        myCar.speedDown(10);
         System.out.println(myCar.toString());
         System.out.println();
 
@@ -22,7 +22,7 @@ public class CarTest {
         yourCar.gear = 30;
         yourCar.color = "blue";
 
-        yourCar.speedDown();
+        yourCar.speedDown(10);
         yourCar.printData();
         System.out.println(yourCar.toString());
     }

@@ -5,12 +5,12 @@ public class Car {
     int gear;
     String color;
 
-    void speedUp() {
-        speed += 10;
+    void speedUp(int a) {
+        speed += a;
     }
 
-    void speedDown() {
-        speed -= 10;
+    void speedDown(int a) {
+        speed -= a;
     }
 
     void printData() {
