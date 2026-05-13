@@ -1,6 +1,7 @@
 package exam_class_basic;
 
 public class Movie {
+    public double rating;
     String title;
     String genre;
 
